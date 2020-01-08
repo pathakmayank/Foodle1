@@ -1,0 +1,4 @@
+#Fri Dec 20 21:58:05 IST 2019
+base.0=C\:\\Users\\patha\\AndroidStudioProjects\\FoodleProt1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

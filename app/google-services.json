@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "848467665224",
+    "firebase_url": "https://foodle-prot1.firebaseio.com",
+    "project_id": "foodle-prot1",
+    "storage_bucket": "foodle-prot1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848467665224:android:46ba11faec7343494bd37d",
+        "android_client_info": {
+          "package_name": "com.example.foodleprot1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848467665224-dc9l4m7v2d64l9ugleccb1d6o19k61j6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodleprot1",
+            "certificate_hash": "d3bf03e4556a344fa6dee294d6fa2529205411fd"
+          }
+        },
+        {
+          "client_id": "848467665224-atcdvllf5sdpefddg7b6dh4v3qouj921.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtHAPdAhKbXx_bjmjbRXET0e-HGv-hVxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848467665224-atcdvllf5sdpefddg7b6dh4v3qouj921.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

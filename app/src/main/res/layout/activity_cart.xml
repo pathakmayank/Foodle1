@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cart" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#FF9100"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivCartItemImage"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/coffee" />
+
+        <LinearLayout
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCFName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="18dp"
+                android:text="Coffee"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvCFPrice"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/price"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Rs11"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ivtrash"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_delete_black_24dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#FF9100"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/I1"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/pattiee" />
+
+        <LinearLayout
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/N1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="18dp"
+                android:text="Pattie"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/P1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/price"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Rs 15"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/T1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_delete_black_24dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#FF9100"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/I2"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/cholesamosa" />
+
+        <LinearLayout
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/N2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="18dp"
+                android:text="Chole Samose"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/qw"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/price"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Rs15"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/abc"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_delete_black_24dp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total \t\t\t\t\t\t\t\t\t\t Rs 38"
+        android:paddingLeft="100dp"
+        android:layout_marginTop="335dp"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnCheckout"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="10dp"
+        android:background="#E4633A"
+        android:drawableRight="@drawable/checkout_asset"
+        android:drawablePadding="-120dp"
+        android:paddingRight="120dp"
+        android:text="Checkout"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+</LinearLayout>

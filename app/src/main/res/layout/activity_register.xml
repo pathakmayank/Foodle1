@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b1blur"
+    tools:context=".register">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:alpha=".50 "
+        android:background="@drawable/input_variables"
+        android:ems="10"
+        android:fontFamily="@font/el_messiri_medium"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="Enter your name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etStudentNo"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="40dp"
+        android:alpha=".50 "
+        android:fontFamily="@font/el_messiri_medium"
+        android:background="@drawable/input_variables"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="Enter your student no."
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etContactNo"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="40dp"
+        android:alpha=".50 "
+        android:fontFamily="@font/el_messiri_medium"
+        android:background="@drawable/input_variables"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="Enter your contact no."
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etBranch"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="@font/el_messiri_medium"
+        android:alpha=".50 "
+        android:background="@drawable/input_variables"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="Enter your branch"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etYear"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="@font/el_messiri_medium"
+        android:alpha=".50 "
+        android:background="@drawable/input_variables"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="Enter your year"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSbmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:alpha=".75 "
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/autour_one"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

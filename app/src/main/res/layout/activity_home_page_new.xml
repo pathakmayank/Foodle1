@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1blur"
+    tools:context=".HomePageNew">
+
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/ivSignOut"
+    android:background="#B34426">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Menu"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:fontFamily="@font/acme"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            app:srcCompat="@drawable/ic_exit_to_app_black_24dp"
+            android:layout_marginLeft="250dp"
+            android:clickable="true"
+            />
+
+
+</androidx.appcompat.widget.Toolbar>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv1"
+            android:layout_below="@+id/ivSignOut"
+            android:layout_width="409dp"
+            android:layout_height="729dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp" >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/cartFromMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="540dp"
+            android:clickable="true"
+            android:tint="#E7E0DD"
+            app:backgroundTint="#FF5722"
+            app:maxImageSize="30dp"
+            app:srcCompat="@drawable/ic_shopping_cart_black_24dp" />
+
+
+</RelativeLayout>

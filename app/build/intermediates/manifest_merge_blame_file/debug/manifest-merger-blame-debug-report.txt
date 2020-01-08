@@ -1,0 +1,233 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.foodleprot1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\f6c0a8daab344d1602954af6cf0b0fa1\jetified-firebase-database-17.0.0\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\f6c0a8daab344d1602954af6cf0b0fa1\jetified-firebase-database-17.0.0\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\f6c0a8daab344d1602954af6cf0b0fa1\jetified-firebase-database-17.0.0\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\f6c0a8daab344d1602954af6cf0b0fa1\jetified-firebase-database-17.0.0\AndroidManifest.xml:26:22-64
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:25:5-68
+15-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:25:22-65
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:26:22-107
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+18
+19    <application
+19-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:5:5-38:19
+20        android:allowBackup="true"
+20-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:6:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\478b79604eaaf934858ce3739dce1708\core-1.1.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:hardwareAccelerated="false"
+23-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:7:9-44
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:8:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:9:9-41
+26        android:largeHeap="true"
+26-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:10:9-33
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:11:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:12:9-35
+29        android:theme="@style/AppTheme" >
+29-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:13:9-40
+30        <activity android:name="com.example.foodleprot1.Profile" />
+30-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:14:9-54
+30-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:14:19-42
+31        <activity android:name="com.example.foodleprot1.checkout" />
+31-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:15:9-46
+31-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:15:19-43
+32        <activity android:name="com.example.foodleprot1.Cart" />
+32-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:16:9-42
+32-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:16:19-39
+33        <activity android:name="com.example.foodleprot1.Fooditemdetail" />
+33-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:17:9-52
+33-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:17:19-49
+34        <activity android:name="com.example.foodleprot1.HomePageNew" />
+34-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:18:9-49
+34-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:18:19-46
+35        <activity android:name="com.example.foodleprot1.SplashScreen" >
+35-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:19:9-25:20
+35-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:19:19-47
+36            <intent-filter>
+36-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:20:13-24:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:21:17-69
+37-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:21:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:23:17-77
+39-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:23:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="com.example.foodleprot1.register" />
+42-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:26:9-46
+42-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:26:19-43
+43        <activity android:name="com.example.foodleprot1.MainActivity" >
+43-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:27:9-33:20
+43-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:27:19-47
+44            <intent-filter>
+44-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:28:13-32:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:21:17-69
+45-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:21:25-66
+46
+47                <category android:name="android.intent.category.DEFAULT" />
+47-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:31:17-76
+47-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:31:27-73
+48            </intent-filter>
+49        </activity>
+50
+51        <meta-data
+51-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:35:9-37:57
+52            android:name="preloaded_fonts"
+52-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:36:13-43
+53            android:resource="@array/preloaded_fonts" />
+53-->C:\Users\patha\AndroidStudioProjects\FoodleProt1\app\src\main\AndroidManifest.xml:37:13-54
+54
+55        <service
+55-->[com.google.firebase:firebase-database:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\f6c0a8daab344d1602954af6cf0b0fa1\jetified-firebase-database-17.0.0\AndroidManifest.xml:29:9-33:19
+56            android:name="com.google.firebase.components.ComponentDiscoveryService"
+56-->[com.google.firebase:firebase-database:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\f6c0a8daab344d1602954af6cf0b0fa1\jetified-firebase-database-17.0.0\AndroidManifest.xml:29:18-89
+57            android:exported="false" >
+57-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\350848f038185ecea8f74b7f9aa96656\play-services-measurement-api-17.2.0\AndroidManifest.xml:29:13-37
+58            <meta-data
+58-->[com.google.firebase:firebase-database:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\f6c0a8daab344d1602954af6cf0b0fa1\jetified-firebase-database-17.0.0\AndroidManifest.xml:30:13-32:85
+59                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+59-->[com.google.firebase:firebase-database:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\f6c0a8daab344d1602954af6cf0b0fa1\jetified-firebase-database-17.0.0\AndroidManifest.xml:31:17-109
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-database:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\f6c0a8daab344d1602954af6cf0b0fa1\jetified-firebase-database-17.0.0\AndroidManifest.xml:32:17-82
+61            <meta-data
+61-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\350848f038185ecea8f74b7f9aa96656\play-services-measurement-api-17.2.0\AndroidManifest.xml:30:13-32:85
+62                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+62-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\350848f038185ecea8f74b7f9aa96656\play-services-measurement-api-17.2.0\AndroidManifest.xml:31:17-139
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\350848f038185ecea8f74b7f9aa96656\play-services-measurement-api-17.2.0\AndroidManifest.xml:32:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+65                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+65-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+67        </service>
+68
+69        <receiver
+69-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:29:9-33:20
+70            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+70-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:30:13-85
+71            android:enabled="true"
+71-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:31:13-35
+72            android:exported="false" >
+72-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:32:13-37
+73        </receiver>
+74        <receiver
+74-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:34:9-42:20
+75            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+75-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:35:13-100
+76            android:enabled="true"
+76-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:36:13-35
+77            android:exported="true"
+77-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:37:13-36
+78            android:permission="android.permission.INSTALL_PACKAGES" >
+78-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:38:13-69
+79            <intent-filter>
+79-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:39:13-41:29
+80                <action android:name="com.android.vending.INSTALL_REFERRER" />
+80-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:40:17-79
+80-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:40:25-76
+81            </intent-filter>
+82        </receiver>
+83
+84        <service
+84-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:44:9-47:40
+85            android:name="com.google.android.gms.measurement.AppMeasurementService"
+85-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:45:13-84
+86            android:enabled="true"
+86-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:46:13-35
+87            android:exported="false" />
+87-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:47:13-37
+88        <service
+88-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:48:9-52:72
+89            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+89-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:49:13-87
+90            android:enabled="true"
+90-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:50:13-35
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:51:13-37
+92            android:permission="android.permission.BIND_JOB_SERVICE" />
+92-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\dc39690b67639afb5142ee2813df3a33\play-services-measurement-17.2.0\AndroidManifest.xml:52:13-69
+93
+94        <receiver
+94-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+95            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+95-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+96            android:exported="true"
+96-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+97            android:permission="com.google.android.c2dm.permission.SEND" >
+97-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+98            <intent-filter>
+98-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+99                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+99-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+99-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+100            </intent-filter>
+101        </receiver>
+102
+103        <provider
+103-->[com.google.firebase:firebase-common:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\fedcfa7aa3779c09d4cf8868861a7c40\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+104            android:name="com.google.firebase.provider.FirebaseInitProvider"
+104-->[com.google.firebase:firebase-common:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\fedcfa7aa3779c09d4cf8868861a7c40\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+105            android:authorities="com.example.foodleprot1.firebaseinitprovider"
+105-->[com.google.firebase:firebase-common:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\fedcfa7aa3779c09d4cf8868861a7c40\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+106            android:exported="false"
+106-->[com.google.firebase:firebase-common:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\fedcfa7aa3779c09d4cf8868861a7c40\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+107            android:initOrder="100" />
+107-->[com.google.firebase:firebase-common:19.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\fedcfa7aa3779c09d4cf8868861a7c40\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+108
+109        <activity
+109-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+110            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+110-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+113
+114        <meta-data
+114-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\762534ab9bcd33c3d6cf201633f551b2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+115            android:name="com.google.android.gms.version"
+115-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\762534ab9bcd33c3d6cf201633f551b2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+116            android:value="@integer/google_play_services_version" />
+116-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\762534ab9bcd33c3d6cf201633f551b2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+117
+118        <provider
+118-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+119            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+119-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+120            android:authorities="com.example.foodleprot1.lifecycle-process"
+120-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+121            android:exported="false"
+121-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+122            android:multiprocess="true" />
+122-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\patha\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+123    </application>
+124
+125</manifest>
